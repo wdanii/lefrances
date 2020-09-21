@@ -1,11 +1,44 @@
 body{
     
 }
-.cuadro{
-    padding: 9rem;
-    background-color: black;
-    background-image: url("../images/fondo.jpg");
-}
+@media screen and (min-width:240px)
+{.cuadro{
+  padding: 5rem;
+  background-color: black;
+  background-image: url("../images/fondo.jpg");}}
+@media screen and (min-width:420px)
+{.cuadro{
+  padding: 8rem;
+  background-color: black;
+  background-image: url("../images/fondo.jpg");}}
+@media screen and (min-width:768px)
+{.cuadro{
+  padding: 8rem;
+  background-color: black;
+  background-image: url("../images/fondo.jpg");
+
+}}
+@media screen and (min-width:1020px) 
+{.cuadro{
+  padding: 8rem;
+  background-color: black;
+  background-image: url("../images/fondo.jpg");
+}}
+
+@media screen and (min-width:1140px) 
+{.cuadro{
+  padding: 9rem;
+  background-color: black;
+  background-image: url("../images/fondo.jpg");
+}}   
+@media screen and (min-width:2560px) 
+{.cuadro{
+  padding: 9rem;
+  background-color: black;
+  background-image: url("../images/fondo.jpg");
+}}  
+
+
 .titulo{
     color: white;
 }
