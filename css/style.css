@@ -1,6 +1,4 @@
-body{
-    
-}
+
 @media screen and (min-width:240px)
 {.cuadro{
   padding: 5rem;
@@ -143,7 +141,7 @@ background: -o-linear-gradient(left, rgba(64,92,230,1) 0%, rgba(88,81,219,1) 19%
 background: -ms-linear-gradient(left, rgba(64,92,230,1) 0%, rgba(88,81,219,1) 19%, rgba(131,58,180,1) 33%, rgba(148,56,184,1) 35%, rgba(255,46,210,1) 48%, rgba(253,29,29,1) 61%, rgba(245,97,64,1) 79%, rgba(247,119,55,1) 91%, rgba(231,56,39,1) 100%);
 background: linear-gradient(to right, rgba(64,92,230,1) 0%, rgba(88,81,219,1) 19%, rgba(131,58,180,1) 33%, rgba(148,56,184,1) 35%, rgba(255,46,210,1) 48%, rgba(253,29,29,1) 61%, rgba(245,97,64,1) 79%, rgba(247,119,55,1) 91%, rgba(231,56,39,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#405ce6', endColorstr='#e73827', GradientType=1 );
-Copy text
+Copy text;
 
   }
   .social .hide {
