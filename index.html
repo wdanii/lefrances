@@ -1,121 +1,96 @@
 <!DOCTYPE html>
-<html lang="es">
-<link rel="shortcut icon" type="image/png" href="images/logo.jpeg"/>
-<style type="text/css">@import "css/bootstrap.min.css";</style>
-<style type="text/css">@import "css/style.css";</style>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="ES">
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+      
 
-    <title>Le Francé Hot Dog</title>
-</head>
-<!-- Codigo del preloader -->
-<style>
-    #wrap-preload {
-        position: fixed;
-        z-index: 10;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        background: #fff;
-        opacity: 1;
-        visibility: visible;
-        transition: opacity .5s ease, visibility .5s ease;
-        z-index: 20000;
-    }
+        <!-- Favicon -->
+        <!-- <link href="assets/img/favicon.ico" rel="icon"> -->
 
-    #wrap-preload.close {
-        opacity: 0;
-        visibility: hidden;
-    }
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Nunito:600,700" rel="stylesheet"> 
+        
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    
+        <!-- Template Stylesheet -->
+        <link href="assets/css/style.css" rel="stylesheet">
 
-    .fixed-top {
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 10;
-    }
+        <!-- estilos personalizados -->
 
-    #wrap-preload>img.gif {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate3d(-50%, -50%, 0);
-        z-index: 20000;
-        height: 30%;
-    }
-</style>
-<div id="wrap-preload">
-    <img src="images/logo.jpg" alt="gif" class="gif" id="gif">
-</div>
-<script>
-    var loader = document.getElementById("wrap-preload");
-    window.addEventListener("load", function() {
-        loader.style.visibility = "hidden";
-    });
-</script>
-<!-- Fin de codigo preloader -->
+        <!-- Estilo imagenes -->
+        <link rel="stylesheet" href="assets/css/styles2.css">
 
-<body>
-    <div class="wrap-social">
-        <div class="show" id="showId"><i class="fa fa-caret-right"></i></div>
+        <!-- Estilo iconos -->
+        <link rel="stylesheet" href="assets/css/fonts.css">
+
+        <!-- Estilo Iconos color y alineación -->
+        <link rel="stylesheet" href="assets/css/rSocial.css">
+        
+        <title> Hot Dog Le Francés </title>
+        <!-- Icono pestaña -->
+        <link rel="icon" href="assets/img/logo_le_fances.ico">
+    </head>
+
+    <body>
+        <!-- Page Header Start -->
+        <div class="page-header mb-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Hot Dog Le Francés</h2>
+                    </div>
+                    <div class="col-12">
+                        <a href="index.html">MENÚ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page Header End -->
+
+        <!--Iconos redes-->
         <div class="social">
-            <div class="socials facebook">
-                <a href="https://www.facebook.com/Le-Franc%C3%A9s-Hot-Dog-111278137160457" target="_blank">
-                    <i class="fa-brands fa-facebook-f icono"></i>
-                </a>
-            </div>
-            <div class="socials insta">
-                <a href="https://instagram.com/hotdoglefrances?igshid=pws6eez6spr2" target="_blank">
-                    <i class="fa-brands fa-instagram icono"></i>
-                </a>
-            </div>
-            <div class="socials whatApp">
-                <a href="https://wa.me/message/LKFFNW3WKZK4I1" target="_blank">
-                    <i class="fa-brands fa-whatsapp icono"></i>
-                </a>
-            </div>
+            <ul>
+                <li><a href="https://www.facebook.com/people/Le-Franc%C3%A9s-Hot-Dog/100063452866438/" target="_blank" class="icon-facebook"></a></li>
+			    <li><a href="https://www.instagram.com/hotdoglefrances/" target="_blank" class="icon-instagram"></a></li>
+			    <li><a href="https://api.whatsapp.com/send/?phone=573125175558&text&type=phone_number&app_absent=0" target="_blank" class="icon-whatsapp"></a></li>
+		    </ul>
         </div>
-    </div>
-    </div>
-    <div class="col-12 cuadro">
-        <div class="col-12 p-0">
-            <h1 class="titulo text-center tamaño_titulo">LE FRANCÉ HOT DOG</h1>
-        </div>
-    </div>
-    <div class="col-12 d-flex flex-wrap align-items-center justify-content-center cont_img">
-        <div class="col-lg-4 col-md-6 col-12 mb-3 p-0">
-            <img src="images/02.jpeg" class="card-img-top card_img" alt="...">
-        </div>
-        <div class="col-lg-4 col-md-6 col-12 mb-3 p-0">
-            <img src="images/04.jpeg" class="card-img-top card_img" alt="...">
-        </div>
-        <div class="col-lg-4 col-md-6 col-12 mb-3 p-0">
-            <img src="images/05.jpeg" class="card-img-top card_img" alt="...">
-        </div>
-        <div class="col-lg-4 col-md-6 col-12 mb-3 p-0">
-            <img src="images/06.jpeg" class="card-img-top card_img" alt="...">
-        </div>
-        <div class="col-lg-4 col-md-6 col-12 mb-3 p-0">
-            <img src="images/07.jpeg" class="card-img-top card_img" alt="...">
-        </div>
-        <div class="col-lg-4 col-md-6 col-12 mb-3 p-0">
-            <img src="images/08.jpeg" class="card-img-top card_img" alt="...">
-        </div>
-        <div class="col-lg-4 col-md-6 col-12 mb-3 p-0">
-            <img src="images/09.jpeg" class="card-img-top card_img" alt="...">
-        </div>
-    </div>
-    <div class="col-lg-12col-md-9 col-12 logo-block copy d-flex align-items-center d-flex justify-content-center">
-        <p class="text-center espacio"><a href="https://www.facebook.com/Le-Franc%C3%A9s-Hot-Dog-111278137160457" style="font-weight: bold;color: #4d4d4d;" target="_blank"> Le Francés Hot Dog </a>
-            &copy; Copyright 2022. <br> Todos los derechos reservados. </p>
-        <br />
+
+        <!--Iconos redes fin-->
 
 
-    </div>
-</body>
-<script src="https://kit.fontawesome.com/1940b43046.js" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <!--Galeria de imagenes-->
+        <tbody>
+            <div class="container">
+                <div class="lightbox-gallery">
+                    <div><img src="assets/img/Menú-LeFrances_page-0002.jpg" data-image-hd="https://picsum.photos/id/343/600/600"></div>
+                    <div><img src="assets/img/Menú-LeFrances_page-0004.jpg" data-image-hd="https://picsum.photos/id/343/600/600"></div>
+                    <div><img src="assets/img/Menú-LeFrances_page-0005.jpg" data-image-hd="https://picsum.photos/id/112/600/600"></div>
+                    <div><img src="assets/img/Menú-LeFrances_page-0006.jpg" data-image-hd="https://picsum.photos/id/155/600/600"></div>
+                    <div><img src="assets/img/Menú-LeFrances_page-0007.jpg" data-image-hd="https://picsum.photos/id/11/600/600"></div>
+                    <div><img src="assets/img/Menú-LeFrances_page-0008.jpg" data-image-hd="https://picsum.photos/id/434/600/600"></div>
+                    <div><img src="assets/img/Menú-LeFrances_page-0009.jpg" data-image-hd="https://picsum.photos/id/101/600/600"></div>
+                    <div><img src="assets/img/Menú-LeFrances_page-0003.jpg" data-image-hd="https://picsum.photos/id/101/600/600"></div>
+                </div>
+              </div>
+            
+        </tbody>
+
+        <!--Galeria de imagenes fin-->
+
+         <!-- Footer Start -->
+         <div class="footer">
+            <div class="copyright">
+                <div class="container">
+                    <p>Derechos de autor
+                        &copy; <a href="#">Hot Dog Le Francés</a>, Todos Los Derechos Reservados.</p>
+                    <p>Diseñado por <a href="https://github.com/MateoSolano65">Jesús Solano</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+    </body>
 </html>
